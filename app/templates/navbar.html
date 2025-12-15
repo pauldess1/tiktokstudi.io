@@ -1,0 +1,17 @@
+{% load static %}
+<nav class="bg-[#f9fafb] fixed w-full z-20 top-0 start-0 border-b border-gray-200 shadow">
+  <div class="max-w-screen-xl flex items-center justify-between mx-auto p-6">
+
+    <!-- Logo -->
+    <a href="{% url 'home' %}" class="text-2xl font-bold text-indigo-600">
+      DayOne.
+    </a>
+
+    <!-- CTA Se connecter -->
+    <a href="{% url 'account_login' %}" 
+       class="text-white bg-indigo-600 hover:bg-indigo-500 focus:ring-4 focus:outline-none focus:ring-indigo-300 font-medium rounded-lg text-sm px-4 py-2 transition">
+      Se connecter
+    </a>
+
+  </div>
+</nav>
